@@ -1,0 +1,174 @@
+[
+  {
+    "id": 1,
+    "title": "Metroid Prime",
+    "mediaType": "videoGame",
+    "status": "planned",
+    "rating": null,
+    "notes": "",
+    "developer": ["Retro Studios"],
+    "publisher": ["Nintendo"],
+    "releaseDate": "2002-11-18",
+    "majorAwards": ["Won multiple Game of the Year awards (various outlets)"],
+    "needsResearch": false,
+    "imgSrc": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000063709/32b85837beea0eee31220a59e247219662de4011f7a8c18fce61cf99a4933eb7"
+  },
+  {
+    "id": 7,
+    "title": "Dark Souls",
+    "mediaType": "videoGame",
+    "status": "planned",
+    "rating": null,
+    "notes": "",
+    "developer": ["FromSoftware"],
+    "publisher": ["FromSoftware", "Namco Bandai Games"],
+    "releaseDate": "2011-09-22",
+    "majorAwards": [],
+    "needsResearch": false
+  },
+  {
+    "id": 11,
+    "title": "Half-Life 2",
+    "mediaType": "videoGame",
+    "status": "planned",
+    "rating": null,
+    "notes": "",
+    "developer": ["Valve"],
+    "publisher": ["Valve"],
+    "releaseDate": "2004-11-16",
+    "majorAwards": ["BAFTA Games Awards — Best Game (winner)"],
+    "needsResearch": false
+  },
+  {
+    "id": 36,
+    "title": "Baldur's Gate 3",
+    "mediaType": "videoGame",
+    "status": "planned",
+    "rating": null,
+    "notes": "",
+    "developer": ["Larian Studios"],
+    "publisher": ["Larian Studios"],
+    "releaseDate": "2023-08-03",
+    "majorAwards": [
+      "The Game Awards 2023 — Game of the Year (winner)",
+      "BAFTA Games Awards — Best Game (winner)"
+    ],
+    "needsResearch": false
+  },
+  {
+    "id": 43,
+    "title": "Portal 2",
+    "mediaType": "videoGame",
+    "status": "planned",
+    "rating": null,
+    "notes": "",
+    "developer": ["Valve"],
+    "publisher": ["Valve"],
+    "releaseDate": "2011-04-18",
+    "majorAwards": [
+      "BAFTA Games Awards — Best Game (winner)",
+      "Golden Joystick Awards 2011 — Ultimate Game of the Year (winner)"
+    ],
+    "needsResearch": false
+  },
+  {
+    "id": 62,
+    "title": "BioShock",
+    "mediaType": "videoGame",
+    "status": "planned",
+    "rating": null,
+    "notes": "",
+    "developer": ["2K Boston", "2K Australia"],
+    "publisher": ["2K"],
+    "releaseDate": "2007-08-21",
+    "majorAwards": [
+      "Spike TV Video Game Awards 2007 — Game of the Year (winner)",
+      "BAFTA — Best Game (winner)"
+    ],
+    "needsResearch": false
+  },
+
+  { "id": 2, "title": "Metroid Prime 2: Echoes", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 3, "title": "Metroid Prime 3: Corruption", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 4, "title": "Metroid Dread", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 5, "title": "Metal Gear Solid 2: Sons of Liberty", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 6, "title": "Metal Gear Solid 3: Snake Eater", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 8, "title": "Dark Souls II", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 9, "title": "Dark Souls III", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 10, "title": "Elden Ring", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 12, "title": "Black Mesa", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 13, "title": "Warhammer 40,000: Space Marine 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 14, "title": "Warhammer 40,000: Darktide", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 15, "title": "Warhammer: Vermintide 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 16, "title": "Garry's Mod", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 17, "title": "Team Fortress 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 18, "title": "Crab Champions", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 19, "title": "Armored Core VI: Fires of Rubicon", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 20, "title": "Warframe", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 21, "title": "ASTRONEER", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 22, "title": "Fallout: New Vegas", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 23, "title": "Halo 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 24, "title": "Halo 3", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 25, "title": "Halo: Reach", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 26, "title": "Gears of War 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 27, "title": "Gears of War 3", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 28, "title": "Gears 5", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 29, "title": "Clair Obscur: Expedition 33", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 30, "title": "For Honor", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 31, "title": "Far Cry 3: Blood Dragon", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 32, "title": "Call of Duty: Black Ops II", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 33, "title": "Call of Duty: Black Ops III", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 34, "title": "Doom (year unsure — you wrote 2014)", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 35, "title": "Vanquish", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 37, "title": "Earth Defense Force 5", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 38, "title": "Earth Defense Force 6", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 39, "title": "The Binding of Isaac", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 40, "title": "Roboquest", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 41, "title": "Dragon Ball FighterZ", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 42, "title": "Portal", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 44, "title": "Counter-Strike: Source", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 45, "title": "Resident Evil 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 46, "title": "Resident Evil 4", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 47, "title": "Resident Evil 7", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 48, "title": "Resident Evil 8 (Village)", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 49, "title": "Lost Planet 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 50, "title": "Final Fantasy XV", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 51, "title": "Dead Space", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 52, "title": "Dead Space 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 53, "title": "Dead Space 3", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 54, "title": "Tom Clancy's Rainbow Six: Vegas 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 55, "title": "Middle-earth: Shadow of Mordor", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 56, "title": "Middle-earth: Shadow of War", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 57, "title": "Batman: Arkham Asylum", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 58, "title": "Batman: Arkham City", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 59, "title": "Batman: Arkham Origins", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 60, "title": "Batman: Arkham Knight", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 61, "title": "Mad Max", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+
+  { "id": 63, "title": "BioShock 2", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true },
+  { "id": 64, "title": "BioShock Infinite", "mediaType": "videoGame", "status": "planned", "rating": null, "notes": "", "developer": null, "publisher": null, "releaseDate": null, "majorAwards": [], "needsResearch": true }
+]

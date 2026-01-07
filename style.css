@@ -1,0 +1,40 @@
+body{
+    background-color:beige;
+}
+
+.grid-container{
+    margin-top:2em;
+    gap:8px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    font-size:larger;
+}
+
+.grid-container div{
+    /* border:1px solid red; */
+    padding:1em;
+}
+
+.grid-container .game-title{
+    font-size:xx-large;
+    background-color:rgba(200,200,200,0.5);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+.card{
+    background-position:center;
+    background-size:cover;
+
+}
+
+.card span{
+    color:white;
+    background-color:rgba(0,0,0,0.7);
+    font-size:larger;
+}
+
+
+
+

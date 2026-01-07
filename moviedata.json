@@ -1,0 +1,10 @@
+[
+    {
+        "id":1,
+        "title":"The Spongebob Squarepants Movie",
+        "rating":"G",
+        "genre":["comedy","animation"],
+        "duration":"120minutes"
+
+    }
+]
