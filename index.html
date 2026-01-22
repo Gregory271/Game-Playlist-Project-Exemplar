@@ -15,11 +15,17 @@
     <div class="flex-container">
         <div><h1>Essential Gaming List</h1></div>
         <div class="filters-container">
-            <h1>Filters: </h1>
+            <h1>Filter/Sorting: </h1>
             <select class="filter-input">
-                <option value="filter-release">Filter by Release Date</option>
-                <option value="filter-rating">Filter by Rating</option>
+                <option value="">Please select a filtering type</option>
+                <option value="default">Reset Default</option>
+                <option value="filter-release">Sort by Release Date</option>
+                <option value="filter-rating">Sort by Rating</option>
         </select>
+        <div class="sort-select">
+            <input id="descending" type="radio" value="descending" name="sortOption"><label for="descending">Descending (New to old)</label>
+            <input id="ascending" type="radio" value="ascending" name="sortOption"><label for="descending">Ascending (Old to new)</label>
+        </div>
     </div>
         <div><a href="#footer"><h2>&darr; To bottom of List &darr;</h2></a></div>
     </div>

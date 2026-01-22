@@ -20,7 +20,7 @@ form.addEventListener("submit",function(e){
     let releaseDate = releaseDateInput.value;
     let gifSrc = gifInput.value;
     let imgSrc = imgInput.value;
-    let newObj = {"id":data.length+1, "title": title, "publisher":publisher, "releaseDate":releaseDate, "imgSrc":imgSrc, "gifSrc":gifSrc };
+    let newObj = {"id":getNextId(), "title": title, "publisher":publisher, "releaseDate":releaseDate, "imgSrc":imgSrc, "gifSrc":gifSrc };
     submitData(newObj);
     form.reset();
 });
