@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <nav>
+    <nav id="navigation">
         <a href="./index.html"><button>Home</button></a>
         <a href="./form.html"><button>Add Game Form</button></a>
     </nav>
@@ -20,9 +20,14 @@
             <label for="title-input">Title: </label><input id="title-input">
             <label for="dev-input">Developer: </label><input id="dev-input">
             <label for="release-date-input">Title: </label><input type="date" id="release-date-input">
+            <label for="img-input">Image</label><input type="url" id="img-input">
+            <label for="gif-input">Gif</label><input type="url" id="gif-input">
             <input type="submit">
         </form>
     </div>
+    <footer style="position:fixed; bottom:0; width:100%;">
+        <a href="#navigation">&uarr;Back to Top&uarr;</a>
+    </footer>
     <script src="./script.js"></script>
     <script src="./formScript.js"></script>
     <!-- <script src="./script.js"></script> -->

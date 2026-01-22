@@ -7,15 +7,29 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav>
+    <nav id="navigation">
         <a href="./index.html"><button>Home</button></a>
         <a href="./form.html"><button>Add Game Form</button></a>
     </nav>
 
-    <h1>Essential Gaming List</h1>
+    <div class="flex-container">
+        <div><h1>Essential Gaming List</h1></div>
+        <div class="filters-container">
+            <h1>Filters: </h1>
+            <select class="filter-input">
+                <option value="filter-release">Filter by Release Date</option>
+                <option value="filter-rating">Filter by Rating</option>
+        </select>
+    </div>
+        <div><a href="#footer"><h2>&darr; To bottom of List &darr;</h2></a></div>
+    </div>
 
     <div class="grid-container">
     </div>
+
+    <footer id="footer">
+        <a href="#navigation">&uarr;Back to Top&uarr;</a>
+    </footer>
 
 
     <script src="./script.js"></script>
