@@ -6,6 +6,7 @@ const descendingButton = document.querySelector("#descending");
 const ascendingButton = document.querySelector("#ascending");
 const sortSelect = document.querySelector(".sort-select");
 var sortByChoice;
+var ratingClicked = false;;
 
 if (localStorage.getItem("datalist")) {
   var data = JSON.parse(localStorage.getItem("datalist"));
@@ -25,7 +26,6 @@ else {//otherwise if localStorage doesnt contain the data, then make the request
       data = JSON.parse(localStorage.getItem("datalist")); //parse data from localStorage, ensure info is updated
 
       console.log(data);
-
 
       if (grid) {//if grid exists then make cards
         makeCards();
@@ -50,6 +50,7 @@ filterInput.addEventListener("input", function () {
     sortSelect.style.display = "block";
   }
 })
+
 //event listeners for radio button options to sort
 descendingButton.addEventListener("click", function () {
   sortByChoice = descendingButton.value;
@@ -101,13 +102,62 @@ function makeCards() {
         card.style.backgroundImage = "url('" + game.imgSrc + "')";
       });
     }
-    let ratingSpan = card.querySelector(".user-rating")
-    if (game.userRating === undefined) {
+    const ratingSpan = card.querySelector(".user-rating");
+    // const saveRatingButton = ratingSpan.querySelector(".save-rating-button");
+
+    if (game.userRating === undefined || game.userRating == "") {
       game.userRating = "Not Rated";
-      ratingSpan.textContent = game.userRating; 
+      ratingSpan.textContent = game.userRating;
       ratingSpan.style.color = "#ff0000";
     }
+    // ratingSpan.insertAdjacentHTML("beforebegin","<div class='rating-flexbox'>");
+    ratingSpan.insertAdjacentHTML("beforeend", "<input type='number' class='rating-input' name='rating-input' min='0' max='10'>")
+    ratingSpan.insertAdjacentHTML("beforeend", "<button class='save-rating-button'>Save Rating</button>")
     grid.appendChild(card);
+
+    ratingSpan.addEventListener("click", function () {
+      var ratingInput = this.querySelector(".rating-input");
+      var saveRatingButton = this.querySelector(".save-rating-button");
+
+      if (!ratingClicked) {
+        ratingClicked = true;
+        ratingInput.style.visibility = "visible";
+        saveRatingButton.style.visibility = "visible";
+      } else {
+        ratingClicked = false;
+        ratingInput.style.visibility = "hidden";
+        saveRatingButton.style.visibility = "hidden";
+      }
+    });
+
+    ratingSpan.querySelector(".rating-input").addEventListener("input", function () {
+      if (this.value < 0) { this.value = 0; }
+      if (this.value > 10) { this.value = 10; }
+    });
+
+
+    ratingSpan.querySelector(".rating-input").addEventListener("click", function (e) {
+      e.stopPropagation();
+    });
+
+    ratingSpan.querySelector(".save-rating-button").addEventListener("click", function (e) {
+      e.stopPropagation();
+
+      var ratingInput = ratingSpan.querySelector(".rating-input");
+      var rating = ratingInput.value;
+
+      game.userRating = rating;
+
+      ratingSpan.childNodes[0].nodeValue = rating; // update text label
+
+      localStorage.setItem("datalist", JSON.stringify(data));
+
+      ratingInput.style.visibility = "hidden";
+      this.style.visibility = "hidden";
+      ratingClicked = false;
+    });
+
+
   });
   console.log("cards refreshed");
 }
@@ -120,7 +170,6 @@ function getNextId() {//id comparison function for "default" sorting function
       maxId = item.id;
     }
   });
-
   return maxId + 1;
 }
 
@@ -167,4 +216,3 @@ function sortGames(sortChoice) {
   // Re-render
   makeCards();
 }
-

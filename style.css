@@ -63,6 +63,7 @@ nav button{
 .card{
     background-position:center;
     background-size:cover;
+    background-repeat:no-repeat;
     height:700px;
     color:white;
 }
@@ -70,6 +71,26 @@ nav button{
 .card span{
     background-color:rgba(0,0,0,0.7);
     font-size:x-large;
+}
+
+.user-rating{
+    width:auto;
+}
+
+
+.rating-input{
+    visibility:hidden;
+    width:3em;
+    height:27.5px;
+    align-items:center;
+    margin:auto;
+    padding:0;
+    border:0;
+}
+
+.save-rating-button{
+    visibility:hidden;
+    display:block;
 }
 
 footer a{
